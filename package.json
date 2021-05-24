@@ -1,0 +1,22 @@
+{
+  "name": "aws-kms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "tsc && node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FredCoen/aws-kms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FredCoen/aws-kms/issues"
+  },
+  "homepage": "https://github.com/FredCoen/aws-kms#readme",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
