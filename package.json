@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "tsc && node index"
+    "execute": "tsc && node index"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "homepage": "https://github.com/FredCoen/aws-kms#readme",
   "devDependencies": {
     "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@aws-crypto/client-node": "^2.1.0",
+    "@aws-sdk/client-kms": "^3.16.0"
   }
 }
